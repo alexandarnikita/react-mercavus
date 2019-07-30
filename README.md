@@ -1,8 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Requirement
+Write a react application “User Hobbies” with following requirement: (Time: 1 - 2 hrs)
 
-## Available Scripts
+- There would be 2 columns both resizable and scrollable.
+- In User columns, user will be listed and added.
+- Right column is blank grey screen until a user is selected.
+- Data should be loaded initially from the mock at http service layer. (Keeping other flow untouched as if a production
+app) Once a user is selected: In Right column, user can now view, add or delete(with confirmation dialog) the hobbies.
+- Hobby consist of three things mentioned below. Passion can be selected out of “Low“, “Medium“, “High“ and “Very-High“. (Pre some validation).
 
-In the project directory, you can run:
+Tech details:
+- ReactJS with Typescript (Hint: Make your own nice directory structure of data/http services)
+- Use Redux store. (Choose actions nicely   )
+- Mock data on Http level only.
+- Create test infrastructure in Jest & enzymes and write test for at-least one functionality to demonstrate. Don’t use any Css library like bootstrap.
+  Create your own nice little SASS architect
+  Add some color variables and write your sass for the layout (Hint: Flexbox and modular sass)
+  
+Layout will be like this:
+http://prntscr.com/om1tim
+
 
 ### `npm start`
 
@@ -27,41 +43,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
 
