@@ -34,7 +34,7 @@ export const users = [
     hobbies: [
       {
         passionLevel: 'high',
-        hobbyName: 'walking on the sreets',
+        hobbyName: 'walking',
         year: 2013
       },
       {
