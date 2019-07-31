@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from "redux";
-import userActions from "../redux/user/actions";
+import { bindActionCreators } from 'redux';
+import userActions from '../redux/user/actions';
 
 class UserContainer extends Component {
   userName = '';
@@ -25,9 +25,9 @@ class UserContainer extends Component {
     const {users, curUser} = this.props;
     return (
       <div>
-        <div className="user-item user-add">
-          <input type="text" name="username" placeholder="Enter user name" onChange={(e) => this.userName = e.target.value}/>
-          <span className="user-add-btn" onClick={this.handleAddUser}>Add</span>
+        <div className='user-item user-add'>
+          <input type='text' name='username' placeholder='Enter user name' onChange={(e) => this.userName = e.target.value}/>
+          <span className='user-add-btn' onClick={this.handleAddUser}>Add</span>
         </div>
         <div className='user-item-container'>
         {users.map((user, index) =>

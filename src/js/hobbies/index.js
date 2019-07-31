@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import UserContainer from "./UserContainer";
-import HobbyContainer from "./HobbyContainer";
+import UserContainer from './UserContainer';
+import HobbyContainer from './HobbyContainer';
 import { connect } from 'react-redux';
 import { ResizableBox } from 'react-resizable';
 import 'react-resizable/css/styles.css';
@@ -9,12 +9,12 @@ class UserHobbies extends Component {
   render() {
     const {curUser} = this.props;
     return (
-      <div className="user-hobby-container">
+      <div className='user-hobby-container'>
         <h2>Users' Hobby List</h2>
 
-        <div className="user-hobby-wrapper">
-          <div className="user-hobby-header">User Hobbies</div>
-          <div className="user-hobby-body">
+        <div className='user-hobby-wrapper'>
+          <div className='user-hobby-header'>User Hobbies</div>
+          <div className='user-hobby-body'>
             <ResizableBox
               width={200}
               height={336}
